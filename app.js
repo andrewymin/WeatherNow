@@ -26,7 +26,7 @@ app.use(cors());
 // app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
-let port = process.env.port || 8000;
+let port = process.env.port || 3001;
 // var apiKey = process.env.weatherKey;
 
 app.get('/', (req, res)=> {
